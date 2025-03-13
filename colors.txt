@@ -1,0 +1,6 @@
+Crvena - #810101
+
+
+pozadina!
+	svetla bela: #f1f1e6  => text: #010410
+	tamna plava: #2F4858  => text: #f1f1e6 
