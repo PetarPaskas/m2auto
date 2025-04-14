@@ -1,0 +1,58 @@
+.section_services{
+    background-color: var(--bg-blue);
+
+    padding:6rem 4rem;
+
+}
+
+.card_container{
+    /* display: flex;
+    flex-direction: column; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap:8rem;
+    column-gap:6rem;
+
+}
+
+.card_row{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card_row:not(:last-child){
+    margin-bottom: 3rem;
+}
+
+.card{
+    padding: 4rem 6rem;
+    background-color: var(--bg-white);
+    border-radius: 20px;
+}
+
+.card_head{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.card_body{
+    text-align: center;
+}
+
+.card_icon{
+    display: inline-block;
+
+}
+
+.card_icon img{
+    width: 60px;
+    height: auto;
+}
+
+.card_text{
+    color: var(--text-dark);
+    font-size: var(--text-mid);
+}

@@ -1,0 +1,21 @@
+*{
+    margin:0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+:root{
+    /*BACKGROUND COLORS*/
+    --bg-white: #D9D9D9;
+    --bg-blue: #2F4858;
+
+    /*TEXT COLORS*/
+    --text-dark:#000;
+
+    /*FONT SIZES*/
+    --text-mid:2.4rem;
+
+    font-size: 62.5%;
+}
