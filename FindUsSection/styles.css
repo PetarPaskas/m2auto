@@ -1,0 +1,53 @@
+.findus{
+    background-color: var(--bg-blue);
+    padding:8rem;
+}
+
+
+.location_box{
+    background-color: var(--bg-white);
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding:4rem 4rem;
+    border-radius: 5px;
+}
+
+.location_description{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin-right: 5rem;
+}
+
+.location_description_row{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+
+.location_description_item{
+}
+
+.location_description_item:not(:last-child){
+    margin-bottom: .5rem;
+}
+
+.location_description_text{
+    font-size:var(--text-mid);
+}
+
+.location_map{
+    flex-grow:1;
+    min-height: 35rem;
+}
+
+.location_map iframe {
+    width: 100%;
+    height: 100%;
+}
