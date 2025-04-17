@@ -1,0 +1,28 @@
+.hero{
+    background: linear-gradient(
+                    to bottom right, 
+                    rgba(0, 0, 0, 0.35), 
+                    rgba(0, 0, 0, 0.35)
+                ),
+                url(../img/kamioni.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    height: 90vh;
+}
+
+.hero_relative{
+    position:relative;
+    height:100%;
+}
+
+.hero .hero_button{
+    position:absolute;
+    top:75%;
+    left:10%
+}
+
+.hero .hero_button:not(:last-of-type){
+    margin-top: 7.5rem;
+}
