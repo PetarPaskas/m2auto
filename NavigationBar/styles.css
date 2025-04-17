@@ -1,0 +1,37 @@
+.navigation{
+    position:relative;
+    background-color: var(--bg-blue);
+    padding:2rem;
+}
+
+.nav_logo{
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    width: 26rem;
+    border-radius: 50%;
+    background-color: var(--bg-blue);
+
+    text-align: center;
+}
+
+.nav_logo_img{
+    height: auto;
+    width: 18rem;
+}
+
+.nav_content{
+    text-align: end;
+}
+
+.nav_content_text{
+    display:inline-block;
+    font-size:var(--text-mid);
+    color:var(--text-light);
+}
+
+.nav_content_text:not(:last-child){
+    margin-right:2rem;
+}
