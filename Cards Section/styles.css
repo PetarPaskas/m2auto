@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap:8rem;
-    column-gap:6rem;
+    column-gap:15rem;
 
 }
 
@@ -28,7 +28,7 @@
 }
 
 .card{
-    padding: 4rem 6rem;
+    padding: 5rem 5rem;
     background-color: var(--bg-white);
     border-radius: 20px;
 }
@@ -48,7 +48,7 @@
 }
 
 .card_icon img{
-    width: 60px;
+    width: 7rem;
     height: auto;
 }
 
