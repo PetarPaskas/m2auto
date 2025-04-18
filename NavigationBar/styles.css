@@ -10,7 +10,7 @@
     left:50%;
     transform: translate(-50%,-50%);
 
-    width: 26rem;
+    width: 22rem;
     border-radius: 50%;
     background-color: var(--bg-blue);
 
@@ -19,7 +19,7 @@
 
 .nav_logo_img{
     height: auto;
-    width: 18rem;
+    width: 14rem;
 }
 
 .nav_content{
