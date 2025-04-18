@@ -1,5 +1,9 @@
 .about_us{
-    padding:6rem;
+    padding:10rem 0rem;
+}
+
+section.about_us .content_container{
+    max-width: 120rem;
 }
 
 .about_us--1{
@@ -53,18 +57,19 @@ img.about_image{
 }
 
 .about_description{
-    padding:2rem 4rem;
+    padding:2rem 10rem;
     border-radius:20px;
+    flex-grow: 1;
 }
 
 .about_description_head{
     text-align: center;
     margin-top:5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .about_description_head .about_text{
-    font-size: var(--text-mid);
+    font-size: var(--text-lg);
 }
 
 
@@ -73,7 +78,7 @@ img.about_image{
 }
 
 .about_description_body .about_text{
-    font-size: var(--text-normal);
+    font-size: var(--text-mid);
     text-align: center;
 }
 
