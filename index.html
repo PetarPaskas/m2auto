@@ -1,208 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="base.css"/>
-    <link rel="stylesheet" href="styles.css"/>
-
-    <link rel="stylesheet" href="./NavigationBar/styles.css"/>
-    <link rel="stylesheet" href="./HeroSection/styles.css"/>
-    <link rel="stylesheet" href="./HeroButton/styles.css"/>
-    <link rel="stylesheet" href="./Cards Section/styles.css"/>
-    <link rel="stylesheet" href="./AboutUs Sections/styles.css"/>
-    <link rel="stylesheet" href="./SeparatorHeading/styles.css"/>
-    <link rel="stylesheet" href="./FindUsSection/styles.css"/>
-
-
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M2 Auto Plus | Tehnički pregled i registracija vozila</title>
+  <meta name="description" content="M2 Auto Plus - Tehnički pregled, registracija i osiguranje vozila u Somboru. Brza i profesionalna usluga.">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <nav class="navigation">
+    <div style="justify-content: start;" class="nav-content">
+      <span class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18">
+          <circle cx="12" cy="13" r="10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6"/>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12h4"/>
+        </svg>
+        <span id="work_day_text">Radnim danima </span>09:00 - 17:00
+      </span>
+    </div>
+    <div class="nav-content">
+      <a href="mailto:m2autosombor@gmail.com" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+        </svg>
+        <span>Email</span>
+      </a>
+      <a href="tel:+381647001177" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+        </svg>
+        <span>Mobilni</span>
+      </a>
+      <a href="tel:025444222" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+        </svg>
+        <span>Fiksni</span>
+      </a>
+    </div>
+    <div class="nav-logo">
+      <img src="../img/logo_1.png" alt="Logo" class="nav_logo_img">
+    </div>
+  </nav>
 
-    <nav class="navigation">
-        <div class="nav_content">
-            <span class="nav_content_text">Email</span>
-            <span class="nav_content_text">Mobilni</span>
-            <span class="nav_content_text">Fiksni</span>
-        </div>
-        <div class="nav_logo">
-            <img src="../img/logo_1.png" alt="Logo" class="nav_logo_img">
-        </div>
-    </nav>
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-buttons">
+        <a href="#lokacija" class="hero-btn">Zakažite termin</a>
+        <a href="#lokacija" class="hero-btn">Kako do nas</a>
+      </div>
+    </div>
+  </section>
 
-    <section class="hero">
-        <div class="hero_cover">
-            <div class="hero_relative content_container">
-                <button class="hero_button">
-                    <span class="hero_button_text">Zakazite termin</span>
-                </button>
-                <button class="hero_button">
-                    <span class="hero_button_text">Kako do nas</span>
-                </button>
+  <section class="services">
+    <div class="container">
+      <h2 class="section-title">Mi Vam nudimo</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/>
+            </svg>
+          </div>
+          <span class="service-text">Osiguranje vozila</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/>
+            </svg>
+          </div>
+          <span class="service-text">Tehnički pregled</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/>
+            </svg>
+          </div>
+          <span class="service-text">Prepis vlasništva</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/>
+            </svg>
+          </div>
+          <span class="service-text">Putno zdravstveno osiguranje</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/>
+            </svg>
+          </div>
+          <span class="service-text">Plaćanje računa</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"/>
+            </svg>
+          </div>
+          <span class="service-text">Zeleni karton</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about about--light">
+    <div class="container">
+      <div class="about-wrapper">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop" alt="Italijanska kafa" class="about-image">
+        <div class="about-content">
+          <h3 class="about-title">Maksimalan komfor</h3>
+          <p class="about-text">Italijanska premium kafa, časopisi, TV ili WiFi internet zauzeće Vam pažnju dok u okviru zakonom definisanih vremenskih rokova Vaše vozilo bude pregledano od strane naših ljubaznih kontrolera</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about about--dark">
+    <div class="container">
+      <div class="about-wrapper about-wrapper--reverse">
+        <img src="./img/objekat.png" alt="Moderni objekat" class="about-image">
+        <div class="about-content">
+          <h3 class="about-title">Vrhunska usluga</h3>
+          <p class="about-text">U potpuno novom modernom objektu trudimo se da svakom našem korisniku pružimo maksimalnu pažnju i najbolju moguću uslugu</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="separator">
+    <h2 class="separator-heading">Mi podižemo standarde u našem poslovanju</h2>
+  </section>
+
+  <section class="location" id="lokacija">
+    <div class="container">
+      <div class="location-box">
+        <div class="location-wrapper">
+          <div class="location-info">
+            <div class="location-group">
+              <span class="location-text">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                  <circle cx="12" cy="9" r="2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                </svg>
+                Stari sivački put, 4
+              </span>
+              <span class="location-text">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 21V7a2 2 0 012-2h8a2 2 0 012 2v14H6z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 21v-6h4v6"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.5 9h1M11.5 9h1M14.5 9h1M8.5 12h1M11.5 12h1M14.5 12h1"/>
+                </svg>
+                Sombor
+              </span>
+              <span class="location-text">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l9 6 9-6"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 8v10a2 2 0 01-2 2H5a2 2 0 01-2-2V8"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8h18"/>
+                </svg>
+                25000
+              </span>
+              <span class="location-text">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18">
+                  <circle cx="12" cy="13" r="10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12h4"/>
+                </svg>
+                Radnim danima 09:00 - 17:00
+              </span>
+              <span class="location-text">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8h18"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l6 6"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12l-6 6"/>
+                </svg>
+                Vikendima ne radimo
+              </span>
             </div>
-        </div>
-    </section>
-
-    <section class="section_services">
-        <div class="card_container content_container">
-                <div class="card">
-                    <div class="card_head">
-                        <span class="card_icon">
-                            <img src="./Assets/car_icon.svg" alt="Automobil">
-                        </span>
-                    </div>
-                    <div class="card_body">
-                        <span class="card_text">
-                            Osiguranje vozila
-                        </span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card_head">
-                        <span class="card_icon">
-                            <img src="./Assets/tools_icon.svg" alt="Automobil">
-                        </span>
-                    </div>
-                    <div class="card_body">
-                        <span class="card_text">
-                            Tehnicki pregled
-                        </span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card_head">
-                        <span class="card_icon">
-                            <img src="./Assets/contract_icon.svg" alt="Automobil">
-                        </span>
-                    </div>
-                    <div class="card_body">
-                        <span class="card_text">
-                            Prepis vlasnistva
-                        </span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card_head">
-                        <span class="card_icon">
-                            <img src="./Assets/health_icon.svg" alt="Automobil">
-                        </span>
-                    </div>
-                    <div class="card_body">
-                        <span class="card_text">
-                            Putno zdravstveno
-                        </span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card_head">
-                        <span class="card_icon">
-                            <img src="./Assets/money_icon.svg" alt="Automobil">
-                        </span>
-                    </div>
-                    <div class="card_body">
-                        <span class="card_text">
-                            Placanje racuna
-                        </span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card_head">
-                        <span class="card_icon">
-                            <img src="./Assets/card_icon.svg" alt="Automobil">
-                        </span>
-                    </div>
-                    <div class="card_body">
-                        <span class="card_text">
-                            Zeleni karton
-                        </span>
-                    </div>
-                </div>
-        </div>
-    </section>
-    
-    <section class="about_us about_us--1">
-        <div class="content_container">
-            <div class="about_grouping">
-                <div class="about_image_container">
-                    <img src="./img/kafa.png" alt="Italijanska kafa" class="about_image">
-                </div>
-                <div class="about_description">
-                    <div class="about_description_head">
-                        <span class="about_text about_text--light">
-                            Maksimalan komfor
-                        </span>
-                    </div>
-                    <div class="about_description_body">
-                        <span class="about_text about_text--light">
-                            Italijanska premium kafa, casopisi, TV ili WiFi internet zauzece Vam paznju dok u okviru zakonom definisanih vremenskih rokova Vase vozilo bude pregledano od strane nasih ljubaznih kontrolera
-                        </span>
-                    </div>
-                </div>
+            <div class="location-group">
+              <a href="tel:025444222" class="location-text location-link">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+                025/444222
+              </a>
+              <a href="tel:+381647001177" class="location-text location-link">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                </svg>
+                064/700-11-77
+              </a>
+              <a href="https://www.instagram.com/m2autosombor/" target="_blank" rel="noopener noreferrer" class="location-text location-link">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M7.75 2h8.5C19.44 2 22 4.56 22 7.75v8.5C22 19.44 19.44 22 16.25 22h-8.5C4.56 22 2 19.44 2 16.25v-8.5C2 4.56 4.56 2 7.75 2zm8.5 1.5h-8.5C5.4 3.5 3.5 5.4 3.5 7.75v8.5c0 2.35 1.9 4.25 4.25 4.25h8.5c2.35 0 4.25-1.9 4.25-4.25v-8.5c0-2.35-1.9-4.25-4.25-4.25z"/>
+                  <path d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6z"/>
+                  <circle cx="17.2" cy="6.8" r="1.2"/>
+                </svg>
+                Instagram
+              </a>
             </div>
+          </div>
+          <div class="location-map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.3971433210904!2d19.13926687406919!3d45.76323060610831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475cb5d1fdb75f63%3A0xa9b455ca1c90a530!2sM2%20auto%20plus%20doo%20tehni%C4%8Dki%20pregled!5e0!3m2!1sen!2srs!4v1744837603688!5m2!1sen!2srs"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="M2 Auto Plus lokacija">
+            </iframe>
+          </div>
         </div>
-    </section>
-    <section class="about_us about_us--2 pb-20">
-        <div class="content_container">
-            <div class="about_grouping about_grouping--reverse">
-                <div class="about_image_container">
-                    <img src="./img/objekat.png" alt="Italijanska kafa" class="about_image">
-                </div>
-                <div class="about_description">
-                    <div class="about_description_head">
-                        <span class="about_text about_text--dark">
-                            Vrhunska usluga
-                        </span>
-                    </div>
-                    <div class="about_description_body">
-                        <span class="about_text about_text--dark">
-                            U potpuno novom modernom objektu trudimo se da svakom nasem korisniku pruzimo maksimalnu paznju i najbolju mogucu uslugu
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="highlight">
-        <h2 class="separator_heading">
-            Mi podizemo standarde u nasem poslovanju
-        </h2>
-    </section>
-
-    <section class="findus">
-        <div class="content_container">
-            <div class="location_box">
-                <div class="location_description">
-                    <div class="location_description_row">
-                        <div class="location_description_item">
-                            <div class="location_description_text">Stari sivacki put, 4</div>
-                        </div>
-                        <div class="location_description_item">
-                            <div class="location_description_text">Sombor</div>
-                        </div>
-                        <div class="location_description_item">
-                            <div class="location_description_text">25000</div>
-                        </div>
-                    </div>
-    
-                    <div class="location_description_row">
-                        <div class="location_description_item">
-                            <div class="location_description_text">025/444222</div>
-                        </div>
-                        <div class="location_description_item">
-                            <div class="location_description_text">+381647001177</div>
-                        </div>
-                        <div class="location_description_item">
-                            <div class="location_description_text">Insta</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="location_map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.3971433210904!2d19.13926687406919!3d45.76323060610831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475cb5d1fdb75f63%3A0xa9b455ca1c90a530!2sM2%20auto%20plus%20doo%20tehni%C4%8Dki%20pregled!5e0!3m2!1sen!2srs!4v1744837603688!5m2!1sen!2srs" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-        </div>
-        </div>
-    </section>
-
+      </div>
+    </div>
+  </section>
 </body>
 </html>
