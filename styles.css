@@ -321,19 +321,20 @@ body {
 .location-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .location-info {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .location-group {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  align-items: start;
 }
 
 .location-text {
@@ -371,7 +372,6 @@ body {
 #svrati:visited{
   transition: background-color .2s;
   padding:.2rem 1rem .2rem .5rem;
-  align-self: flex-start;
   border-radius: 20px;
   border:1px solid var(--bg-dark);
   background-color: var(--bg-dark);
@@ -499,7 +499,7 @@ body {
   }
 
   .location-box {
-    padding: 4rem 6rem;
+    padding: 4rem 3rem;
   }
 
   .location-text {
