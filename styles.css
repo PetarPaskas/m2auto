@@ -144,6 +144,7 @@ body {
   transition: background-color 0.2s, transform 0.2s;
   border: none;
   cursor: pointer;
+  text-align: center;
 }
 
 .hero-btn:hover {
@@ -378,7 +379,7 @@ body {
   #work_day_text{
     display: inline;
   }
-  
+
   .nav-link span {
     display: inline;
   }
