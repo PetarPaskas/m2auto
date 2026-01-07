@@ -366,6 +366,25 @@ body {
   overflow: hidden;
 }
 
+#svrati,
+#svrati:link, 
+#svrati:visited{
+  transition: background-color .2s;
+  padding:.2rem 1rem .2rem .5rem;
+  align-self: flex-start;
+  border-radius: 20px;
+  border:1px solid var(--bg-dark);
+  background-color: var(--bg-dark);
+  color:var(--bg-light);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+#svrati:hover,
+#svrati:active{
+  background-color: transparent;
+  color:var(--bg-dark);
+}
+
 .location-map iframe {
   width: 100%;
   height: 100%;
